@@ -1,3 +1,41 @@
+# 👤 Face Detection Project
+
+This project is a **Face Detection system** developed to detect human faces in images or real-time video using computer vision techniques.  
+The main goal of this project is to understand **image processing and face detection concepts**.
+
+---
+
+## 🎯 Project Objective
+
+- To detect human faces accurately
+- To learn the basics of computer vision
+- To work with real-time image/video processing
+- To gain hands-on experience with face detection algorithms
+
+---
+
+## 🚀 Features
+
+- Detects faces in images
+- Real-time face detection using webcam
+- Draws bounding boxes around detected faces
+- Simple and easy-to-use implementation
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- OpenCV  
+- Haar Cascade Classifier  
+
+*(Update this section if you used different tools)*
+
+---
+
+## 📂 Project Structure
+
+
 import cv2
 face_cap = cv2.CascadeClassifier("C:/Users/admin/AppData/Local/Programs/Python/Python313/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
 
